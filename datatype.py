@@ -1,6 +1,14 @@
 # This code is use to check the Datatype of The Functions
 
 a=input("a:")
-t=type(a)   # class <type>
+b=float(a) # a but the type should be float
 
-print(t)
+z=type(a)
+
+t=type(b)   # class <type>
+
+print("Real answer for the given value/word")
+print(z) # for Normal Answer
+
+print("Real answer for the given value/word but it should be changed to float")
+print(t) # for converted to float
